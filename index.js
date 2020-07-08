@@ -27,11 +27,15 @@ function processFirstItem(stringList, callback) {
  * Study the code for counter1 and counter2. Answer the questions below.
  * 
  * 1. What is the difference between counter1 and counter2?
- * 
+  -- in Counter 1, the count is function lever will keep adding,
+    counter2 count will reset beingoutside of scope level.
+
  * 2. Which of the two uses a closure? How can you tell?
- * 
+] -- counter1 is the closure, with the nested function for counter.
+
  * 3. In what scenario would the counter1 code be preferable? In what scenario would counter2 be better? 
- *
+  -- counter1- If you need the var to keep incrementing, counter2- if you need it to reset when called.
+  \
 */
 
 // counter1 code
